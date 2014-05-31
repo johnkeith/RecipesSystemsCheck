@@ -1,0 +1,10 @@
+.container {
+  margin:10px auto;
+  max-width: 1200px;
+}
+.inner {
+  padding:15px;
+}
+.pure-u-1-1 h1 {
+  text-align: center;
+}

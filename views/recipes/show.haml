@@ -1,0 +1,14 @@
+.container
+  .pure-g-r
+    .pure-u-1-1
+      %h1= @recipe[0]["recipe_name"]
+      %h3= @recipe[0]["description"]
+    .pure-u-1-2
+      .inner
+        %p= @recipe[0]["instructions"]
+    .pure-u-1-2
+      .inner
+        %ul
+        - @recipe.each do |row|
+          %li= row["ingredient_name"]
+
